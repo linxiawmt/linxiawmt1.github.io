@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/HTML/style.css" />
+        <title>HTML结构与布局</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
+        <style type="text/css">
+            *{text-align:center;/* 所有标记的内容居中显示 */}
+            </style>
+        -->
+    </head>
+    <body>
+        <img src="/HTML/风景.jpg" alt="诗意美景" title="诗意美景" width="295"height="150" />
+        <br>
+        <audio src="/HTML/宗次郎.mp3" controls autoplay loop></audio>
+        <header role="banner">
+            <h3>欢迎来到高四八班卷狗世界</h3> 
+            <hr size="4" color="black"><!--水平分割线-->             
+        <h1>HTML结构与布局</h1>
+        <nav role="main"><!-- 导航栏role="main"将作为主要导航栏 -->
+            <ul>
+                <li><a href="https://pintia.cn/home" target="_blank">余坦豪专属网站</a></li>
+                <li><a href="https://tieba.baidu.com/p/8903555529?pn=1" target="_blank">林宗源专属网站</a></li>
+                <li><a href="https://www.icourse163.org/" target="_blank">吴一亿专属网站</a></li>
+                <li><a href="https://www.bilibili.com/video/BV1zu4y1i7Bn/?spm_id_from=333.337.search-card.all.click" target="_blank">陈城专属网站</a></li>
+            </ul>
+        </nav>
+        </header>
+        <div class="wrapper">
+            <main role="main">
+                <article role="article">
+                    <header>
+                        <h2>欢迎来到余坦豪的世界</h2>
+                    </header>
+                    <p class="standout">余坦豪，浙江大学的畜生，喜欢内卷和叫翁明涛爸爸</p>
+                    <figure>
+                        <img src="/HTML/贼眉鼠眼哥.jpg" alt="贼眉鼠眼哥" width="450" height="400"/>
+                        <figcaption>余坦豪的照片</figcaption>
+                    </figure>
+                    <p class="intro">他拥有着最喜欢的女孩，舔的不要不要的</p>
+                    <img src="/HTML/余坦豪最喜欢的女人.jpg" alt="余坦豪最喜欢的女人" title="余坦豪最喜欢的女人" width="450" height="400"/>
+                    <br>
+                    <a href="/HTML/合照.jpg" target="_blank">这是他们的合照</a> 
+                    <footer class="author1">
+                    <p>Published by 余坦豪 on 2024/11/1</p>
+                    </footer>
+                </article>
+            </main>
+            <aside>
+                <h3>这是坦豪个人语录</h3>
+                <p>王羽萱在微积分当吉祥物，为什么不当我的吉祥物呢？</p>
+            </aside>
+        </div>
+        <video width="300px"  controls><source src="/HTML/风景.mp4" type="video/mp4"></video>    
+        <footer class="author" >
+            <p><mark><u>网页制作：翁明涛</u></mark></p>
+            <a href="/HTML/课表.html">拓展课表</a>
+        </footer>
+
+    </body>
+</html>
